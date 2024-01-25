@@ -1,0 +1,10 @@
+ol{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: x-large;
+    margin: 10px;
+    padding:20px;
+    color:black;
+    background-color: rgb(80, 134, 27);;
+}

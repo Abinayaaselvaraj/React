@@ -1,33 +1,54 @@
 
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
 
-import Testcomp from './components/functionalcomponent/testfunction';
-import ClassComp from './components/classcomponents/testclass';
-import ClassEx from './components/classcomponents/testclass1';
+import './App.css';
+//import PropsComp from './components/functionalcomp2/PropsComp';
+//import StateComponent from './components/functionalcomp2/StateComp';
+import NavBar from './components/functionalcomponent/NavBar';
+import { BrowserRouter,Routes,Route} from 'react-router-dom';
+import Home from './components/functionalcomponent/home';
+import About from './components/functionalcomponent/about';
+import Project from './components/functionalcomponent/Projects';
+import Login from './components/functionalcomponent/login';
+import Footer from './components/functionalcomponent/footer';
 function App() {
   return (
     <div className="App">
-      < ClassEx></ClassEx>
-      <Testcomp></Testcomp>
-      <header className="App-header">
-      <Testcomp></Testcomp>
-      <ClassComp></ClassComp>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+      <NavBar/>
+      <Routes>
+        <Route path="/Home" element={<Home/>}></Route>
+        <Route path="/About" element={<About/>} ></Route>
+        <Route path="/Project" element={<Project/>}></Route>
+        <Route path="/Login" element={<Login/>}></Route>
+      </Routes>
+      </BrowserRouter>  
+      {/* {"this is footer"} 
+      <footer/>                              */}
+      {/* <PropsComp name= "Abinaya" course="MERN"/>
+       <header className="App-header">
+      
+       <img src={logo} className="App-logo" alt="logo" />
+        
+       <p>
+           Edit <code>src/App.js</code> and save to reload.
+         </p>
+         <a
+           className="App-link"
+           href="https://reactjs.org"
+           target="_blank"
+           rel="noopener noreferrer"
+         >
+           Learn React
+         </a>
+         {/* <StateComponent></StateComponent> */}
+       {/* </header> */}
+       <Footer></Footer>
+   </div>
+   
   );
+  
 }
+
 
 export default App;
