@@ -1,0 +1,15 @@
+.login-box {
+    background-color:silver;
+    border: 10px solid #ccc;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    margin-left: auto; /* Auto margin on left to push it to the right */
+    margin-right: auto;
+  }
+  body{
+    background-color: darkgray;
+  }
+  

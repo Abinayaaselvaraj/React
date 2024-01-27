@@ -18,7 +18,7 @@ render(){
     return(
         
         <div >
-            
+            {/* EVENT HANDLING LINE 1 */}
             <button onClick={this.ChangeState}>Click me to change state</button>
             <h2>Hello, {this.state.name}<br></br>This is {this.state.course} class </h2>
             <h2>I am changing the state of {this.state.name} to {this.ChangeState()}</h2>

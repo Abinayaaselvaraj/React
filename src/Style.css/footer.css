@@ -1,11 +1,20 @@
 footer{
     position:fixed;
-    font-size:x-large;
     bottom: 0;
     width: 100%;
     padding: 20px;
-    background-color: rgb(80, 134, 27);;
+    background-color:  rgb(60, 55, 55);  
+    /* rgb(11, 58, 147) */
+    font-size:x-large;
+    color:wheat;
+    /* rgb(45, 32, 31);; */
 }
-/* p{
-    min-height: 1000px;
-} */
+.right{
+    color: wheat;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+a{
+    color: wheat;
+}

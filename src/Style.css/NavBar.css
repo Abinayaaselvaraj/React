@@ -1,10 +1,13 @@
-ol{
+.nav{
     display:flex;
     justify-content: space-evenly;
     list-style-type: none;
     font-size: x-large;
     margin: 10px;
     padding:20px;
-    color:black;
-    background-color: rgb(80, 134, 27);;
+    background-color: rgb(60, 55, 55);
+}
+.nav a {
+    color:wheat; /* Change this to your desired font color */
+    text-decoration: none;
 }

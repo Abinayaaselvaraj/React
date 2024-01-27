@@ -3,6 +3,22 @@
     color:chocolate
 } */
 /* //rgb(169, 198, 100); */
-.abi{
-    padding: 250px;
+.project {
+    padding: 150px;
+    /* background-color: cornflowerblue; */
+    background-color: darkgray;
+    font-size: x-large;
+}
+
+.ahk {
+
+    font-size: xx-large;
+    justify-content: space-evenly;
+}
+
+.loginn {
+    /* background-color: cornflowerblue; */
+    font-size: x-large;
+    background-color: darkgray;
+    padding: 100px;
 }
